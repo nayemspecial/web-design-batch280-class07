@@ -1,0 +1,73 @@
+.header-area {
+    background-color: #34495E;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.for-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.menu ul li a:hover{
+    color: #F1C40F
+}
+
+button {
+    padding: 8px 19px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.slider-area{
+    background: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+}
+
+.center h2 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 300;
+}
